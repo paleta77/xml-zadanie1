@@ -3,6 +3,17 @@
 <!ELEMENT info ()>
 <!ELEMENT tytuł_strony>
 -->
-<!ELEMENT dział (autor)>
+
 <!ELEMENT autor (książka)>
-<!ELEMENT książka (tytuł, opis, data_publikacji, stron, cena, waluta)>
+<!ATTLIST autor
+          id CDATA #REQUIRED
+>
+
+<!ELEMENT dział (tytuł, opis, data_publikacji, stron, cena, waluta)>
+<!ATTLIST dział
+          id CDATA #REQUIRED
+>
+
+<!ATTLIST opis
+          numer CDATA #REQUIRED
+>
