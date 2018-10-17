@@ -1,4 +1,8 @@
-<!ELEMENT księgarnia (dział)>
+<!ELEMENT księgarnia (info,tytuł_strony,dział)>
+<!--
+<!ELEMENT info ()>
+<!ELEMENT tytuł_strony>
+-->
 <!ELEMENT dział (autor)>
 <!ELEMENT autor (książka)>
-<!ELEMENT książka (tytuł, cena)>
+<!ELEMENT książka (tytuł, opis, data_publikacji, stron, cena, waluta)>
