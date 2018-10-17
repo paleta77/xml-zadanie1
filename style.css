@@ -123,11 +123,11 @@ nazwa{
  background-color: #f5f5ed;    
 }
 autor { 
+    text-decoration: underline;
     padding-left: 3%;
     display: block;
     list-style-type: circle;
 	//font-weight: bold;
-	//text-decoration: underline;
 }
 książka {
     display: list-item;

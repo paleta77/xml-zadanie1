@@ -32,4 +32,3 @@
 <!ATTLIST cena 
           waluta (PLN|USD) "PLN"
 >
-
