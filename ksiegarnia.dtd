@@ -1,19 +1,19 @@
-<!ELEMENT księgarnia (info,tytuł_strony,dział+)>
+<!ELEMENT księgarnia (info,modyfikacja,dział+)>
 
 <!ELEMENT info (#PCDATA)>
-<!ELEMENT tytuł_strony (#PCDATA)>
 <!ELEMENT modyfikacja (info, ukryta_wiadomość)>
 <!ELEMENT ukryta_wiadomość (#PCDATA)>
 
-<!ELEMENT autor (książka+)>
+
+<!ELEMENT dział (#PCDATA | autor)*>
+<!ATTLIST dział
+          id CDATA #REQUIRED
+>
+
+<!ELEMENT autor (#PCDATA | książka)*>
 <!ATTLIST autor
           id CDATA #REQUIRED
           id2 CDATA #IMPLIED
->
-
-<!ELEMENT dział (autor+)>
-<!ATTLIST dział
-          id CDATA #REQUIRED
 >
 
 <!ELEMENT książka (tytuł, opis, data_publikacji, stron, cena)>
