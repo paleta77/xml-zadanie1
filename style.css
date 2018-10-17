@@ -1,0 +1,71 @@
+/* Cascade style sheet based on księgarnia.dtd DTD */
+
+info
+{
+    padding-left: 1%;
+    border: 2px solid tomato;
+    display: block;
+    color: rgb(226, 24, 79);
+  	text-align: center;
+	background-color: #f0f0f0;
+	font-size: 30px;
+}
+księgarnia {
+    display: block;
+    margin-left: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-left: 6px solid red;
+	text-align: justify;
+        background-color: #f0f0f0;
+	//background-image: url("book.jpg");
+}
+dział { 
+    display: block; 
+    padding: 1%;
+	border-bottom-style: dashed;
+	//background-image: url("book.jpg");
+        background: #FFF;
+}
+/*opis.double {border-style: double;} */ //nie działa
+autor { 
+    padding-left: 3%;
+    display: block;
+    list-style-type: circle;
+	//font-weight: bold;
+	//text-decoration: underline;
+}
+książka {
+    display: list-item; /*nie działa*/
+    padding-left: 3%;
+}
+#pierwsza {
+    font-style: italic;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+#fantastyka{
+    background-image: url("book.jpg");
+    background-position: bottom;
+}
+tytuł {
+    font-weight: bold;   
+}
+opis {
+	display: block;
+}
+data_publikacji {
+    
+}
+stron {
+    display: inline;
+}
+cena {
+    display: inline;
+}
+waluta {
+	
+}
