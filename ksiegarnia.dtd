@@ -1,19 +1,34 @@
-<!ELEMENT księgarnia (info,tytuł_strony,dział)>
-<!--
-<!ELEMENT info ()>
-<!ELEMENT tytuł_strony>
--->
+<!ELEMENT księgarnia (info,tytuł_strony,dział+)>
 
-<!ELEMENT autor (książka)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT tytuł_strony (#PCDATA)>
+<!ELEMENT modyfikacja (info, ukryta_wiadomość)>
+<!ELEMENT ukryta_wiadomość (#PCDATA)>
+
+<!ELEMENT autor (książka+)>
 <!ATTLIST autor
           id CDATA #REQUIRED
+          id2 CDATA #IMPLIED
 >
 
-<!ELEMENT dział (tytuł, opis, data_publikacji, stron, cena, waluta)>
+<!ELEMENT dział (autor+)>
 <!ATTLIST dział
           id CDATA #REQUIRED
 >
 
-<!ATTLIST opis
-          numer CDATA #REQUIRED
+<!ELEMENT książka (tytuł, opis, data_publikacji, stron, cena)>
+<!ATTLIST książka
+          id CDATA #REQUIRED
 >
+
+<!ELEMENT tytuł (#PCDATA)>
+
+<!ELEMENT opis (#PCDATA)>
+
+<!ELEMENT data_publikacji (#PCDATA)>
+<!ELEMENT stron (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena 
+          waluta (PLN|USD) "PLN"
+>
+
