@@ -19,16 +19,21 @@
 
     <modyfikacja>Najedź, aby sprawdzić datę modyfikacji!<ukryta_wiadomość>Ostatnia modyfikacja: 2018-10-17</ukryta_wiadomość></modyfikacja>
     
-    <dział id="fantastyka"> <nazwa>Fantastyka (najedź w celu uzyskania opisu)<fantastyka_wiadomość>opis fantastyki</fantastyka_wiadomość></nazwa>
+    <dział id="fantastyka"> 
+        <nazwa>
+            Fantastyka (najedź w celu uzyskania opisu)
+            <wiadomość>
+                opis fantastyki
+            </wiadomość>
+        </nazwa>
         <autor id="Andrzej Sapkowski"> Andrzej Sapkowski
             <książka id="pierwsza">
                 <tytuł>Miecz przeznaczenia</tytuł>
-                <opis numer="jeden"><![CDATA[Wiedźmiński kodeks stawia tę sprawę w sposób jednoznaczny: wiedźminowi smoka zabijać się nie godzi. To gatunek zagrożony wymarciem. 
+                <opis><![CDATA[Wiedźmiński kodeks stawia tę sprawę w sposób jednoznaczny: wiedźminowi smoka zabijać się nie godzi. To gatunek zagrożony wymarciem. 
                                 Aczkolwiek w powszechnej opinii to gad najbardziej wredny. Na oszluzgi, widłogony i latawce kodeks polować przyzwala. Ale na smoki – nie. ]]></opis>
                 <data_publikacji>1980-08-21</data_publikacji>
                 <stron>250</stron>
-                <cena>30zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">30zł</cena>
             </książka>
             <książka id="druga">
                 <tytuł>Ostatnie życzenie</tytuł>
@@ -37,8 +42,7 @@
                                 za odczarowanie nękającej mieszkańców Wyzimy strzygi. Takie czasy nastały. ]]></opis>
                 <data_publikacji>1980-08-21</data_publikacji>
                 <stron>250</stron>
-                <cena>30</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">30</cena>
             </książka>
         </autor>
         <autor id="Dmitrij Głuchowski"> Dmitrij Głuchowski
@@ -47,12 +51,14 @@
                 <opis><![CDATA[Rok 2033. Świat po zagładzie nuklearnej. Ocalali walczą o przetrwanie w sieci moskiewskiego metra. Ich los trafia w ręce młodego Artema.]]></opis>
                 <data_publikacji>1980-08-21</data_publikacji>
                 <stron>250</stron>
-                <cena>30zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">30zł</cena>
             </książka>
         </autor>
     </dział>
-    <dział id="literatura_współczesna"> <nazwa>Literatura współczesna</nazwa>
+    <dział id="literatura_współczesna"> 
+        <nazwa>
+            Literatura współczesna
+        </nazwa>
         <autor id="Donna Tartt"> Donna Tartt
             <książka id="czwarta">
                 <tytuł>Szczygieł</tytuł>
@@ -60,8 +66,7 @@
                                nieustającej podróży: od ekskluzywnych apartamentów przy Park Avenue po rozpustę półświatka w Las Vegas.]]></opis>
                 <data_publikacji>2015-05-06</data_publikacji>
                 <stron>784</stron>
-                <cena>48,99zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">48,99zł</cena>
             </książka>
             <książka id="piąta">
                 <tytuł>Tajemna historia</tytuł>
@@ -70,8 +75,7 @@
                                nic wspólnego z monotonną egzystencją ich rówieśników.]]></opis>
                 <data_publikacji>2017-09-20</data_publikacji>
                 <stron>608</stron>
-                <cena>37,99zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">37,99zł</cena>
             </książka>
         </autor>
         <autor id="J. D. Salinger"> J. D. Salinger
@@ -82,8 +86,7 @@
                                powróci do domu rodzinnego.]]></opis>
                 <data_publikacji>1951-07-16</data_publikacji>
                 <stron>277</stron>
-                <cena>11,99zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">11,99zł</cena>
             </książka>
         </autor>
         <autor id="N. Harper Lee"> N. Harper Lee
@@ -93,8 +96,7 @@
                                 o zgwałcenie biednej białej dziewczyny Mayelli Ewell. Prosta sprawa sądowa z powodu wszechpanującego rasizmu, urasta do rangi symbolu.]]></opis>
                 <data_publikacji>2015-10-20</data_publikacji>
                 <stron>424</stron>
-                <cena>22,80zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">22,80zł</cena>
             </książka>
             <książka id="ósma">
                 <tytuł>Idź, postaw wartownika</tytuł>
@@ -102,12 +104,14 @@
                                 Na południu Stanów Zjednoczonych panuje zamęt polityczny;]]></opis>
                 <data_publikacji>2015-11-04</data_publikacji>
                 <stron>368</stron>
-                <cena>30,72zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">30,72zł</cena>
             </książka>
         </autor>
     </dział>
-    <dział id="kryminał"><nazwa>Kryminał</nazwa>
+    <dział id="kryminał">
+        <nazwa>
+            Kryminał
+        </nazwa>
         <autor id="Stephen King"> Stephen King
             <książka id="dziewiąta">
                 <tytuł>Zielona Mila</tytuł>
@@ -115,8 +119,7 @@
                                 wykonanie kary śmierci i pilnujący ich strażnicy.]]></opis>
                 <data_publikacji>2017-05-31</data_publikacji>
                 <stron>416</stron>
-                <cena>12,98zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">12,98zł</cena>
             </książka>        
             <książka id="dziesiąta">
                 <tytuł>Lśnienie</tytuł>
@@ -124,16 +127,14 @@
                                 się z rodzicami w opustoszałym na zimie hotelu. Wrażliwe, obdarzone zdolnościami wizjonerskimi dziecko odbiera fluidy czające się w jego murach;]]></opis>
                 <data_publikacji>2009-10-13</data_publikacji>
                 <stron>520</stron>
-                <cena>30,49zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">30,49zł</cena>
             </książka>     
             <książka id="jedenasta">
                 <tytuł>Bastion</tytuł>
                 <opis><![CDATA[Najdłuższa i według powszechnych ocen najlepsza powieść w dorobku Stephena Kinga – apokaliptyczny thriller mistrza grozy.]]></opis>
                 <data_publikacji>2018-09-19</data_publikacji>
                 <stron>1166</stron>
-                <cena>39,49zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">39,49zł</cena>
             </książka>                
         </autor> 
         <autor id="Remigiusz Mróz"> Remigiusz Mróz
@@ -143,12 +144,14 @@
                                 jedynie przysypane śniegiem, poskręcane liny, ale nie trafiają na żaden inny ślad po grupie.]]></opis>
                 <data_publikacji>2018-09-19</data_publikacji>
                 <stron>532</stron>
-                <cena>29,93zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">29,93zł</cena>
             </książka>            
         </autor>       
     </dział>
-    <dział id="klasyka"><nazwa>Klasyka</nazwa>
+    <dział id="klasyka">
+        <nazwa>
+            Klasyka
+        </nazwa>
         <autor id="Henryk Sienkiewicz"> Henryk Sienkiewicz
             <książka id="trzynasta">
                 <tytuł>Latarnik</tytuł>
@@ -156,8 +159,7 @@
                                 polskiego emigranta politycznego, który obsługiwał latarnię morską położoną na wyspie.]]></opis>
                 <data_publikacji>2017-11-20</data_publikacji>
                 <stron>24</stron>
-                <cena>6,21zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">6,21zł</cena>
             </książka>
             <książka id="czternasta">
                 <tytuł>Janko Muzykant</tytuł>
@@ -165,8 +167,7 @@
                                 talent muzyczny. Nie jest to jednak opowieść o wielkim sukcesie, lecz wzruszająca i smutna historia.]]></opis>
                 <data_publikacji>2018-01-31</data_publikacji>
                 <stron>32</stron>
-                <cena>4,55zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">4,55zł</cena>
             </książka>
             <książka id="piętnasta">
                 <tytuł>Quo Vadis</tytuł>
@@ -176,8 +177,7 @@
                                 uwięzienie i cudowne ocalenie na arenie. ]]></opis>
                 <data_publikacji>2003-01-01</data_publikacji>
                 <stron>459</stron>
-                <cena>12,44zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">12,44zł</cena>
             </książka>
             <książka id="szesnasta">
                 <tytuł>W pustyni i w puszczy</tytuł>
@@ -185,8 +185,7 @@
                                 Rawlinson zostają uprowadzeni przez beduinów.]]></opis>
                 <data_publikacji>2002-01-01</data_publikacji>
                 <stron>312</stron>
-                <cena>11,61zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">11,61zł</cena>
             </książka>
             <książka id="siedemnasta">
                 <tytuł>Ogniem i mieczem</tytuł>
@@ -194,8 +193,7 @@
                                 w latach 1884–1888. Akcja powieści rozgrywa się w latach 1648–1651, w okresie powstania Chmielnickiego na Ukrainie.]]></opis>
                 <data_publikacji>2009-01-01</data_publikacji>
                 <stron>592</stron>
-                <cena>22,81zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">22,81zł</cena>
             </książka>
         </autor>
         <autor id="Jane Austen"> Jane Austen
@@ -205,8 +203,7 @@
                                 pojawi się jakiś odpowiedni kawaler? A kiedy już się pojawił, następowały dalsze perypetie, które Jane Austen z upodobaniem opisywała.]]></opis>
                 <data_publikacji>2006-01-01</data_publikacji>
                 <stron>304</stron>
-                <cena>17,49zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">17,49zł</cena>
             </książka>   
             <książka id="dziewiętnasta">
                 <tytuł>Perswazje</tytuł>
@@ -214,12 +211,14 @@
                                 Teraz ma lat dwadzieścia siedem i ponieważ odrzucała względy innych mężczyzn, wydaje się skazana na staropanieństwo.]]></opis>
                 <data_publikacji>2016-09-15</data_publikacji>
                 <stron>266</stron>
-                <cena>21,99zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">21,99zł</cena>
             </książka>     
         </autor>
     </dział>
-    <dział id="poezja"><nazwa>Poezja</nazwa>
+    <dział id="poezja">
+        <nazwa>
+            Poezja
+        </nazwa>
         <autor id="Jan Kochanowski"> Jan Kochanowski
             <książka id="dwudziesta">
                 <tytuł>Fraszki</tytuł>
@@ -227,8 +226,7 @@
                                Oczywiście są one dla nas wciąż żywą, czytywaną bynajmniej nie tylko z obowiązku, literaturą.]]></opis>
                 <data_publikacji>2008-11-12</data_publikacji>
                 <stron>204</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">10,00zł</cena>
             </książka>                
         </autor>
         <autor id="Wisława Szymborska"> Wisława Szymborska
@@ -237,8 +235,7 @@
                 <opis><![CDATA[Zbiór wierszy przyszłej noblistki. Tomik z 1976 roku.]]></opis>
                 <data_publikacji>1976-01-01</data_publikacji>
                 <stron>43</stron>
-                <cena>20,00zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">20,00zł</cena>
             </książka>      
             <książka id="dwudziesta_druga">
                 <tytuł>Milczenie roślin</tytuł>
@@ -246,8 +243,7 @@
                                 harmonijnie współgrają tu z przepiękną oprawą graficzną. Jej główny element stanowią nastrojowe fotografie wybrane przez samą poetkę.]]></opis>
                 <data_publikacji>2011-11-14</data_publikacji>
                 <stron>44</stron>
-                <cena>19,49zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">19,49zł</cena>
             </książka>   
             <książka id="dwudziesta_trzecia">
                 <tytuł>Błysk rewolweru</tytuł>
@@ -255,12 +251,14 @@
                                 Dzieło to – najprawdopodobniej pierwsza proza przyszłej noblistki – spoczywało na dnie szuflady.]]></opis>
                 <data_publikacji>2013-01-01</data_publikacji>
                 <stron>144</stron>
-                <cena>26,37zł</cena>
-                <waluta>PLN</waluta>
+                <cena waluta="PLN">26,37zł</cena>
             </książka>               
         </autor>
     </dział>
-    <dział id="biografia"><nazwa>Biografia</nazwa>
+    <dział id="biografia">
+        <nazwa>
+            Biografia
+        </nazwa>
         <autor  id="Anne Frank"> Anne Frank
             <książka id="dwudziesta_czwarta">
                 <tytuł>Dziennik</tytuł>
@@ -268,8 +266,7 @@
                                 jej rodziny i znajomych. Przez ponad dwa lata, w ciągłym strachu przed wykryciem, próbują oni normalnie żyć, łagodzić codzienne konflikty, doceniać małe radości.]]></opis>
                 <data_publikacji>2015-01-14</data_publikacji>
                 <stron>320</stron>
-                <cena>23,36zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">23,36zł</cena>
             </książka>
         </autor>
         <autor  id="Salvador Dali"> Salvador Dali
@@ -279,20 +276,21 @@
                                 ta niezwykła, przeraźliwie szczera i wręcz ekshibicjonistyczna opowieść Dalego o Dalim.]]></opis>
                 <data_publikacji>2013-09-23</data_publikacji>
                 <stron>400</stron>
-                <cena>17,60zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">17,60zł</cena>
             </książka>
         </autor>
     </dział>
-    <dział id="satyra"><nazwa>Satyra</nazwa>
+    <dział id="satyra">
+        <nazwa>
+            Satyra
+        </nazwa>
         <autor id="Julian Tuwim" id2="Antoni Słonimski"> Julian Tuwim, Antoni Słonimski
             <książka id="dwudziesta_szósta">
                 <tytuł>W oparach absurdu</tytuł>
                 <opis><![CDATA[Tom satyrycznych tekstów Juliana Tuwima i Antoniego Słonimskiego pisanych w latach 1920-1936.]]></opis>
                 <data_publikacji>2008-01-01</data_publikacji>
                 <stron>190</stron>
-                <cena>24,83zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">24,83zł</cena>
             </książka>
         </autor>   
         <autor id="Terry Pratchett" id2="Gray Jolliffe"> Terry Pratchett, Gray Jolliffe
@@ -303,12 +301,14 @@
                                 I wszystko inne, co zostanie na stole.]]></opis>
                 <data_publikacji>2005-11-10</data_publikacji>
                 <stron>116</stron>
-                <cena>17,99zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">17,99zł</cena>
             </książka>
         </autor>           
     </dział>
-    <dział id="dramat"><nazwa> Dramat</nazwa>
+    <dział id="dramat">
+        <nazwa> 
+            Dramat
+        </nazwa>
         <autor id="Sofokles"> Sofokles
             <książka id="dwudziesta_ósma">
                 <tytuł>Antygona</tytuł>
@@ -316,8 +316,7 @@
                                 tkwiących w nas praw moralnych, boskich z pochodzenia i niewzruszalnych, którym sprzeniewierzyć się nie wolno, nawet gdy ceną za dochowanie im wierności staje się własne życie.]]></opis>
                 <data_publikacji>2013-01-01</data_publikacji>
                 <stron>77</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">10,00zł</cena>
             </książka>
             <książka id="dwudziesta_dziewiąta">
                 <tytuł>Król Edyp</tytuł>
@@ -325,8 +324,7 @@
                                 jakie upłynęły od jego powstania, wciąż jest utworem żywym i fascynującym, stale powracającym na scenę.]]></opis>
                 <data_publikacji>2012-01-01</data_publikacji>
                 <stron>136</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">10,00zł</cena>
             </książka>
         </autor>
         <autor id="Juliusz Słowacki"> Juliusz Słowacki
@@ -336,8 +334,7 @@
                                 postanawiają nazbierać w lesie malin. Jedno z najpopularniejszych wydań z opracowanej, ponadto napisane czcionką, ułatwiającą szybie czytanie.]]></opis>
                 <data_publikacji>2010-01-01</data_publikacji>
                 <stron>180</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">10,00zł</cena>
             </książka>
             <książka id="trzydziesta">
                 <tytuł>Kordian</tytuł>
@@ -345,8 +342,7 @@
                                 Wpisuje się tym samym w krąg działań, które zaplanował szatan u progu kolejnego stulecia.]]></opis>
                 <data_publikacji>2010-01-01</data_publikacji>
                 <stron>128</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta> 
+                <cena waluta="PLN">10,00zł</cena>
             </książka>
         </autor>
         <autor id="William Shakespeare"> William Shakespeare
@@ -356,8 +352,7 @@
                                 którzy stali się wzorcami romantycznych kochanków.]]></opis>
                 <data_publikacji>2016-05-01</data_publikacji>
                 <stron>160</stron>
-                <cena>10,00zł</cena>
-                <waluta>PLN</waluta>   
+                <cena waluta="PLN">10,00zł</cena>  
             </książka>
         </autor>
     </dział>        

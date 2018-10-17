@@ -1,14 +1,16 @@
-<!ELEMENT księgarnia (info,modyfikacja,dział+)>
-
+<!ELEMENT księgarnia (info,tytuł_strony,modyfikacja,dział+)>
+<!ELEMENT tytuł_strony (#PCDATA)>
 <!ELEMENT info (#PCDATA)>
-<!ELEMENT modyfikacja (info, ukryta_wiadomość)>
+<!ELEMENT modyfikacja (#PCDATA| ukryta_wiadomość)*>
 <!ELEMENT ukryta_wiadomość (#PCDATA)>
 
-
-<!ELEMENT dział (#PCDATA | autor)*>
+<!ELEMENT dział (#PCDATA | nazwa | autor)*>
 <!ATTLIST dział
           id CDATA #REQUIRED
 >
+
+<!ELEMENT nazwa (#PCDATA | wiadomość)*>
+<!ELEMENT wiadomość (#PCDATA)>
 
 <!ELEMENT autor (#PCDATA | książka)*>
 <!ATTLIST autor
@@ -22,11 +24,10 @@
 >
 
 <!ELEMENT tytuł (#PCDATA)>
-
 <!ELEMENT opis (#PCDATA)>
-
 <!ELEMENT data_publikacji (#PCDATA)>
 <!ELEMENT stron (#PCDATA)>
+
 <!ELEMENT cena (#PCDATA)>
 <!ATTLIST cena 
           waluta (PLN|USD) "PLN"
