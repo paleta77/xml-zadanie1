@@ -12,16 +12,15 @@
         KSIĘGARNIA
     </tytuł_strony>
 
-    <lista><link>Link amazon</link></lista>
-    <lista><link>Link ebay</link></lista>
-    <lista><link xlink:type="simple" xlink:href="https://www.google.com">Link google</link></lista>
+
+    <link xlink:type="simple" xlink:href="https://google.com/">Google</link>
 
 
     <modyfikacja>Najedź, aby sprawdzić datę modyfikacji!<ukryta_wiadomość>Ostatnia modyfikacja: 2018-10-17</ukryta_wiadomość></modyfikacja>
     
     <dział id="fantastyka"> 
         <nazwa>
-            Fantastyka (najedź w celu uzyskania opisu)
+            Fantastyka
             <wiadomość>
                 opis fantastyki
             </wiadomość>
@@ -58,6 +57,9 @@
     <dział id="literatura_współczesna"> 
         <nazwa>
             Literatura współczesna
+            <wiadomość>
+                opis literatury współczesnej
+            </wiadomość>
         </nazwa>
         <autor id="Donna Tartt"> Donna Tartt
             <książka id="czwarta">
@@ -111,6 +113,9 @@
     <dział id="kryminał">
         <nazwa>
             Kryminał
+            <wiadomość>
+                opis kryminał
+            </wiadomość>
         </nazwa>
         <autor id="Stephen King"> Stephen King
             <książka id="dziewiąta">
@@ -151,6 +156,9 @@
     <dział id="klasyka">
         <nazwa>
             Klasyka
+            <wiadomość>
+                opis klasyka
+            </wiadomość>
         </nazwa>
         <autor id="Henryk Sienkiewicz"> Henryk Sienkiewicz
             <książka id="trzynasta">
@@ -218,6 +226,9 @@
     <dział id="poezja">
         <nazwa>
             Poezja
+            <wiadomość>
+                opis poezja
+            </wiadomość>
         </nazwa>
         <autor id="Jan Kochanowski"> Jan Kochanowski
             <książka id="dwudziesta">
@@ -258,6 +269,9 @@
     <dział id="biografia">
         <nazwa>
             Biografia
+            <wiadomość>
+                opis biografia
+            </wiadomość>
         </nazwa>
         <autor  id="Anne Frank"> Anne Frank
             <książka id="dwudziesta_czwarta">
@@ -283,6 +297,9 @@
     <dział id="satyra">
         <nazwa>
             Satyra
+            <wiadomość>
+                opis satyra
+            </wiadomość>
         </nazwa>
         <autor id="Julian Tuwim" id2="Antoni Słonimski"> Julian Tuwim, Antoni Słonimski
             <książka id="dwudziesta_szósta">
@@ -308,6 +325,9 @@
     <dział id="dramat">
         <nazwa> 
             Dramat
+            <wiadomość>
+                opis dramat
+            </wiadomość>
         </nazwa>
         <autor id="Sofokles"> Sofokles
             <książka id="dwudziesta_ósma">

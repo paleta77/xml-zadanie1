@@ -1,10 +1,18 @@
-<!ELEMENT księgarnia (info,tytuł_strony,modyfikacja,dział+)>
-<!ELEMENT tytuł_strony (#PCDATA)>
+<!ELEMENT księgarnia (info, tytuł_strony, link, modyfikacja, dział+)>
+<!ATTLIST księgarnia
+          xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink"
+>
 <!ELEMENT info (#PCDATA)>
-<!ELEMENT modyfikacja (#PCDATA| ukryta_wiadomość)*>
+<!ELEMENT tytuł_strony (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+          xlink:type CDATA #FIXED "simple"
+          xlink:href CDATA #REQUIRED >
+
+<!ELEMENT modyfikacja (#PCDATA | ukryta_wiadomość)*>
 <!ELEMENT ukryta_wiadomość (#PCDATA)>
 
-<!ELEMENT dział (#PCDATA | nazwa | autor)*>
+<!ELEMENT dział (nazwa, autor+)>
 <!ATTLIST dział
           id CDATA #REQUIRED
 >
@@ -30,5 +38,5 @@
 
 <!ELEMENT cena (#PCDATA)>
 <!ATTLIST cena 
-          waluta (PLN|USD) "PLN"
+          waluta (PLN|EUR|USD) "PLN"
 >
