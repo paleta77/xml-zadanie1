@@ -3,7 +3,7 @@
 
 <!DOCTYPE księgarnia SYSTEM "ksiegarnia.dtd">
 
-<księgarnia xmlns:xlink="http://www.w3.org/1999/xlink">
+<księgarnia>
 
     <info>
         Agnieszka Baumann, Paweł Szrubas
@@ -12,17 +12,14 @@
         KSIĘGARNIA
     </tytuł_strony>
 
-
-    <link xlink:type="simple" xlink:href="https://google.com/">Google</link>
-
-
-    <modyfikacja>Najedź, aby sprawdzić datę modyfikacji!<ukryta_wiadomość>Ostatnia modyfikacja: 2018-10-17</ukryta_wiadomość></modyfikacja>
+    <modyfikacja>Najedź, aby sprawdzić datę ostatniej modyfikacji!<ukryta_wiadomość>Ostatnia modyfikacja: 2018-10-17</ukryta_wiadomość></modyfikacja>
     
     <dział id="fantastyka"> 
         <nazwa>
             Fantastyka
             <wiadomość>
-                opis fantastyki
+                Fantastyka – gatunek literacki, a także filmowy, komiksowy, gier a niekiedy i malarstwa. Polega ona na kreowaniu świata przedstawionego, 
+                który w całości, lub w części różni się od rzeczywistości, na przykład przez dodanie elementów nadnaturalnych, lub stworzonej przez autora technologii.
             </wiadomość>
         </nazwa>
         <autor id="Andrzej Sapkowski"> Andrzej Sapkowski
@@ -58,7 +55,8 @@
         <nazwa>
             Literatura współczesna
             <wiadomość>
-                opis literatury współczesnej
+                Literatura współczesna - nazwa ta obejmuje ostatni okres literacki, trwający od wybuchu II wojny światowej we wrześniu 1939 r. do dnia dzisiejszego – jest to więc epoka niezamknięta; 
+                jej materiał literacki i krytyczny narasta. 
             </wiadomość>
         </nazwa>
         <autor id="Donna Tartt"> Donna Tartt
@@ -114,7 +112,7 @@
         <nazwa>
             Kryminał
             <wiadomość>
-                opis kryminał
+                Powieść kryminalna – odmiana powieści charakteryzująca się fabułą zorganizowaną wokół zbrodni, okoliczności dojścia do niej, dochodzenia oraz ujawnienia osoby sprawcy.
             </wiadomość>
         </nazwa>
         <autor id="Stephen King"> Stephen King
@@ -157,7 +155,7 @@
         <nazwa>
             Klasyka
             <wiadomość>
-                opis klasyka
+                Klasyka - dzieła sztuki i literatury z różnych okresów historycznych i stylów uznane za doskonałe.
             </wiadomość>
         </nazwa>
         <autor id="Henryk Sienkiewicz"> Henryk Sienkiewicz
@@ -227,7 +225,7 @@
         <nazwa>
             Poezja
             <wiadomość>
-                opis poezja
+                Poezja - to część literatury pięknej obejmująca utwory wierszowane w odróżnieniu od prozy.
             </wiadomość>
         </nazwa>
         <autor id="Jan Kochanowski"> Jan Kochanowski
@@ -270,7 +268,7 @@
         <nazwa>
             Biografia
             <wiadomość>
-                opis biografia
+                Biografia - opis życia postaci autentycznej, który może mieć charakter naukowy, literacki lub popularyzatorski.
             </wiadomość>
         </nazwa>
         <autor  id="Anne Frank"> Anne Frank
@@ -298,7 +296,7 @@
         <nazwa>
             Satyra
             <wiadomość>
-                opis satyra
+                Satyra - gatunek literacki lub publicystyczny łączący w sobie epikę, lirykę i dramat wywodzący się ze starożytności, który ośmiesza i piętnuje ukazywane w niej zjawiska, obyczaje, politykę, grupy lub stosunki społeczne.
             </wiadomość>
         </nazwa>
         <autor id="Julian Tuwim" id2="Antoni Słonimski"> Julian Tuwim, Antoni Słonimski
@@ -322,11 +320,11 @@
             </książka>
         </autor>           
     </dział>
-    <dział id="dramat">
+    <dział id="tragedia">
         <nazwa> 
-            Dramat
+            Tragedia
             <wiadomość>
-                opis dramat
+                Tragedia to utwór dramatyczny, w którym ośrodkiem akcji jest nieprzezwyciężalny i kończący się nieuchronną klęską konflikt wybitnej jednostki z siłami wyższymi – losem, fatum, prawami historii, prawami moralnymi, czy prawami społecznymi. 
             </wiadomość>
         </nazwa>
         <autor id="Sofokles"> Sofokles

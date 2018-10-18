@@ -1,14 +1,6 @@
-<!ELEMENT księgarnia (info, tytuł_strony, link, modyfikacja, dział+)>
-<!ATTLIST księgarnia
-          xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink"
->
+<!ELEMENT księgarnia (info, tytuł_strony, modyfikacja, dział+)>
 <!ELEMENT info (#PCDATA)>
 <!ELEMENT tytuł_strony (#PCDATA)>
-<!ELEMENT link (#PCDATA)>
-<!ATTLIST link
-          xlink:type CDATA #FIXED "simple"
-          xlink:href CDATA #REQUIRED >
-
 <!ELEMENT modyfikacja (#PCDATA | ukryta_wiadomość)*>
 <!ELEMENT ukryta_wiadomość (#PCDATA)>
 

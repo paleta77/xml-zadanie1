@@ -3,11 +3,13 @@
 księgarnia {
     display: block;
     font-family: Arial, sans serif;
-    /*margin-left: 10px;*/
+    margin-bottom: 10px;
+    text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
-    /*border-left: 6px solid yellow;*/
-    text-align: justify;
+    padding-top: 20px;
+    border: 2px solid #CFB53B;  
+
 }
 info
 {
@@ -22,6 +24,10 @@ info
 }
 tytuł_strony {
     display: block;
+    border-left: 4px solid #CFB53B;
+    border-right: 4px solid #CFB53B;
+    border-bottom: 4px solid #CFB53B;
+    margin-bottom: 10px;
     color: white;
     font-style: italic;
     font-size: 40px;
@@ -35,35 +41,20 @@ tytuł_strony {
     background-position: bottom;
 }
 
-
-link {
-    display: block;
-    text-align: center;
-    border-bottom: 4px solid #CFB53B;
-    width: 150px;
-    background-color: #FFFF88;
-}
-
-/* unvisited link */
-link:link {color:#ff0000;}
-/* visited link */
-link:visited {color:#0000ff;}
-/* mouse over link */
-link:hover {color: hotpink; background: lightblue;}
-/* selected link */
-link:active {color: blue;}
-
-
 /*wiadomość o dacie ostatniej modyfikacji */
 ukryta_wiadomość {
     display: none;
-    text-align: center;
-    background-color: #CCFFCC;
-    padding: 20px;
+    background-color: #E4F6F8;
+    padding: 15px;
 }
 modyfikacja:hover ukryta_wiadomość {
+    font-size: 16px;
     display: block;
     text-align: center;
+}
+modyfikacja {
+    margin-top: 15px;
+    text-align: center;  
 }
 
 
@@ -74,70 +65,83 @@ dział {
     border-color: orange;
     /*border-bottom-style: dashed;*/
     //background-color: #f5f5dc;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /*opis fatastyki */
 wiadomość {
     display: none;
+    border: 2px solid #CFB53B;
     text-align: center;
-    background-color: #dddddd;
+    color: black;
+    font-weight: normal;
+    background-color: #f2f2f2;
+    font-size: 15px;
     padding: 20px;
 }
 nazwa:hover wiadomość {
+    font-size: 16px;
     display: block;
     text-align: center;
 }
 
-nazwa{
-  text-decoration: underline;
-  font-weight: bold; 
-  text-align: center;
-  font-size: 20px;
-  color: brown;
+nazwa {
+    font-weight: bold; 
+    text-align: left;
+    font-size: 24px;
+    color: brown;
 }
 
-/*opis.double {border-style: double;} */ /*nie działa*/
+
 #fantastyka{
- background-color: #f5f5ca;
+    margin-top: 25px;
+    background-color: #f5f5ca;
 }
 #literatura_współczesna{
- background-color: #f5f5cd;    
+    background-color: #f5f5cd;    
 }
 #kryminał{
- background-color: #f5f5cf;   
+    background-color: #f5f5cf;   
 }
 #klasyka{
- background-color: #f5f5db;   
+    background-color: #f5f5db;   
 }
 #poezja{
- background-color: #f5f5dd;    
+    background-color: #f5f5dd;    
 }
 #biografia{
- background-color: #f5f5df;   
+    background-color: #f5f5df;   
 }
 #satyra{
- background-color: #f5f5eb;    
+    background-color: #f5f5eb;    
 }
-#dramat{
- background-color: #f5f5ed;    
+#tragedia{
+    background-color: #f5f5ed;
+    margin-bottom: 25px;
 }
 autor { 
     padding-left: 3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
     display: block;
     list-style-type: circle;
-	//font-weight: bold;
-}
+}  
+
 książka {
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
     display: list-item;
-    padding-left: 3%;
+    padding: 0.8%;
 }
 tytuł {
-    font-weight: bold;   
+    font-weight: bold;
+    font-style: italic;
 }
 opis {
-    display: inline
+    display: inline;
 }
 data_publikacji {
     display:  inline; 
