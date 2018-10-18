@@ -6,7 +6,7 @@
 
 <!ELEMENT dział (nazwa, autor+)>
 <!ATTLIST dział
-          id CDATA #REQUIRED
+          id ID #REQUIRED
 >
 
 <!ELEMENT nazwa (#PCDATA | wiadomość)*>
@@ -14,13 +14,13 @@
 
 <!ELEMENT autor (#PCDATA | książka)*>
 <!ATTLIST autor
-          id CDATA #REQUIRED
-          id2 CDATA #IMPLIED
+          autorId ID #REQUIRED
 >
 
 <!ELEMENT książka (tytuł, opis, data_publikacji, stron, cena)>
 <!ATTLIST książka
-          id CDATA #REQUIRED
+          książkaAutorId IDREF #REQUIRED
+          id ID #REQUIRED
 >
 
 <!ELEMENT tytuł (#PCDATA)>

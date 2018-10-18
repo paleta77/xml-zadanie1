@@ -2,7 +2,7 @@
 
 księgarnia {
     display: block;
-    font-family: Arial, sans serif;
+    font-family: Arial, serif;
     margin-bottom: 10px;
     text-align: justify;
     padding-left: 10%;
@@ -29,6 +29,7 @@ tytuł_strony {
     border-bottom: 4px solid #CFB53B;
     margin-bottom: 10px;
     color: white;
+    background-color: transparent;
     font-style: italic;
     font-size: 40px;
     font-weight: bold;
@@ -44,6 +45,7 @@ tytuł_strony {
 /*wiadomość o dacie ostatniej modyfikacji */
 ukryta_wiadomość {
     display: none;
+    color: black;
     background-color: #E4F6F8;
     padding: 15px;
 }
@@ -63,13 +65,11 @@ dział {
     padding: 1%;
     border-style: dotted;
     border-color: orange;
-    /*border-bottom-style: dashed;*/
-    //background-color: #f5f5dc;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-/*opis fatastyki */
+/*opis działu*/
 wiadomość {
     display: none;
     border: 2px solid #CFB53B;
@@ -85,38 +85,46 @@ nazwa:hover wiadomość {
     display: block;
     text-align: center;
 }
-
 nazwa {
     font-weight: bold; 
     text-align: left;
     font-size: 24px;
     color: brown;
+    background-color: transparent;
 }
 
 
 #fantastyka{
     margin-top: 25px;
+    color: black;
     background-color: #f5f5ca;
 }
 #literatura_współczesna{
+    color: black;
     background-color: #f5f5cd;    
 }
 #kryminał{
+    color: black;
     background-color: #f5f5cf;   
 }
 #klasyka{
+    color: black;
     background-color: #f5f5db;   
 }
 #poezja{
+    color: black;
     background-color: #f5f5dd;    
 }
 #biografia{
+    color: black;
     background-color: #f5f5df;   
 }
 #satyra{
+    color: black;
     background-color: #f5f5eb;    
 }
 #tragedia{
+    color: black;
     background-color: #f5f5ed;
     margin-bottom: 25px;
 }
@@ -153,5 +161,5 @@ cena {
     display: inline;
 }
 waluta {
-    display: inline; //nie działa
+    display: inline;
 }
